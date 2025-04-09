@@ -56,31 +56,16 @@ The next step was to enable the event logging, to observe how data can identify 
     ![image](https://github.com/user-attachments/assets/78abaac2-9010-4ab5-9944-28cbff789808)</br>
     ![image](https://github.com/user-attachments/assets/3c18147a-044e-4ab2-85c7-5f4227cdbbeb)</br>
     
+<b><h3>4. Creating a scheduled task:</h3></b>
+
+- In this step, I created a scheduled task that would run every hour and display a random message in the command window:</br>
+  o I used the Windows+R key combination to open the “Run” window, followed by the command “taskschd.msc” for the Task Scheduler tool.
+  ![image](https://github.com/user-attachments/assets/7f1b30db-c1d6-4914-80cb-5f1e92fd5199)</br>
+  o Then I selected - Action->Create Task-> where I configured the "scheduled task": task name, task description.</br>
+  ![image](https://github.com/user-attachments/assets/aea1b636-df4b-4f1c-bb1e-8ffccc73a3a1)</br>
+  
 
 
-    
 
 
 
-    
-
-
-While using this email, direct login on the yahoo.com website is one of the access methods.
-Other methods for accessing the account and messages include:
-<ol>
-  <li>Mobile app/smartphone</li>
-  <li>Using app-specific passwords for third-party applications like Microsoft Outlook, Mozilla Thunderbird, which allows access to and storage of emails on a workstation.</li>
-</ol>
-
-![image](https://github.com/user-attachments/assets/f82fba2d-cc4b-4962-9a61-543511477372)
-
-In case of loss of access to emails, it is possible to export emails by regularly backing them up to a third-party service, such as MailStore Home https://www.mailstore.com/en/products/mailstore-home/. Additionally, in case of loss of access to the email account, a recovery email address and phone number are assigned to the account for data recovery.
-![image](https://github.com/user-attachments/assets/29d232d5-cae6-4eb2-b584-2c53c6b6c1a8)
-
-<b><h3>3. Conclusions:</h3></b>
-
-- Confidentiality can be improved by using a stronger password and implementing 2FA.</br>
-- The integrity of messages is well protected by built-in scanning and filtering mechanisms, but additional measures, such as avoiding downloading suspicious attachments, are necessary.</br>
-- The availability of data and messages can be ensured through regular backups and constant updates of recovery information, so users can access their account in case of emergency.</br>
-
-**Identified weaknesses, such as a weak password, lack of two-step authentication, and manual backup, require improvements to protect the email account against cybersecurity risks.**
