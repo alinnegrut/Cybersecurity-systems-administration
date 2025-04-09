@@ -64,10 +64,22 @@ The next step was to enable the event logging, to observe how data can identify 
   o Then I selected - Action->Create Task-> where I configured the "scheduled task": task name, task description.</br>
   ![image](https://github.com/user-attachments/assets/aea1b636-df4b-4f1c-bb1e-8ffccc73a3a1)</br>
   o In the Actions tab, I selected the action that needs to be performed:</br>
-    o Action: Start a program;
-    o Program/script: CMD;
-    o Add arguments: /C TITLE Hello &ECHO.&ECHO.&ECHO Perform updates &ECHO.&ECHO.&TIMEOUT [-1];
-    o Ok.;
+    o Action: Start a program;</br>
+    o Program/script: CMD;</br>
+    o Add arguments: /C TITLE Hello &ECHO.&ECHO.&ECHO Perform updates &ECHO.&ECHO.&TIMEOUT [-1];</br>
+    o Ok.;</br>
+![image](https://github.com/user-attachments/assets/9980d0ca-b2a1-4fff-aef2-0556aff8b90c)</br>
+  o In the Triggers tab, I selected when to perform the above action, starting from the moment the task was created, then I checked the option to repeat every hour, followed by Ok.</br>
+  ![image](https://github.com/user-attachments/assets/9f99b81a-5afd-43fc-8778-672a7e111a39)</br>
+  o Testing- right panel Run:</br>
+  ![image](https://github.com/user-attachments/assets/3ac9dd15-0856-45d9-ae51-26fa29190886)</br>
+  ![image](https://github.com/user-attachments/assets/e61d755b-bea4-46de-957c-feed8c9407f5)</br>
+
+  
+
+
+
+  
 
     
 
