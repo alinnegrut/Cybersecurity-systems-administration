@@ -18,7 +18,9 @@ The next step was to enable the event logging, to observe how data can identify 
 <b><h3>1. Creating a new user</h3></b>
 
 - In this chapter I created a new user named "TestUser" with "TestPassword123" password and granting limited rights;<br/>
+
 - In the CLI terminal I used "net user TestUser TestPassword213 /add" command;<br/>
+
   ![image](https://github.com/user-attachments/assets/9eaa5387-843c-4f2f-bbf2-010d4302d637)<br/>
 - In the GUI window you can find the created account - the next step is to select the desired user;
 ![image](https://github.com/user-attachments/assets/e3ea352b-3b38-438d-870e-6a1d3593ac31)<br/>
