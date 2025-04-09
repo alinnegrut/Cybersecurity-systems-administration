@@ -63,7 +63,13 @@ The next step was to enable the event logging, to observe how data can identify 
   ![image](https://github.com/user-attachments/assets/7f1b30db-c1d6-4914-80cb-5f1e92fd5199)</br>
   o Then I selected - Action->Create Task-> where I configured the "scheduled task": task name, task description.</br>
   ![image](https://github.com/user-attachments/assets/aea1b636-df4b-4f1c-bb1e-8ffccc73a3a1)</br>
-  
+  o In the Actions tab, I selected the action that needs to be performed:</br>
+    o Action: Start a program;
+    o Program/script: CMD;
+    o Add arguments: /C TITLE Hello &ECHO.&ECHO.&ECHO Perform updates &ECHO.&ECHO.&TIMEOUT [-1];
+    o Ok.;
+
+    
 
 
 
