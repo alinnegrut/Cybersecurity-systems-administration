@@ -47,6 +47,10 @@ The next step was to enable the event logging, to observe how data can identify 
     o Windows+R-> gpedit.msc</br>
     o In the opened window I accessed:</br>
     ![image](https://github.com/user-attachments/assets/55a9f2eb-22d1-491e-ad11-237859327cc5)</br>
+    o In the "Audit account logon event" box, I checked the options for successful or failed login, then Ok.</br>
+    ![image](https://github.com/user-attachments/assets/6bad2416-4a9d-4598-bde2-92f87b3f1597)</br>
+    
+
     
 
 
