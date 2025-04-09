@@ -1,17 +1,16 @@
 <h1>Cybersecurity systems administration</h1>
 
 <h2>Description</h2>
-Within this project, I created new users in the Windows operating system and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
+Within this project, I set up a virtual machine, created new users in the Windows OS and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
 The next step was to enable the event logging, to observe how data can identify possible security threats followed by creating and running automated tasks, useful for regular monitoring and protecting the system <br />
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>[Password Strength Meter](https://www.passwordmonster.com/)</b> 
-- <b>[Yahoo Web services](https://www.yahoo.com/) </b>
+- <b>[Oracle Virtual Box](https://www.virtualbox.org/)</b> 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11</b> (10.0.26100)
+- <b>[Windows 10](https://www.microsoft.com/en-us/software-download/windows10)</b> 
 
 <h2>Project walk-through:</h2>
 
