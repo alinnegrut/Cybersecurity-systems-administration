@@ -1,7 +1,7 @@
 <h1>Cybersecurity systems administration</h1>
 
 <h2>Description</h2>
-Within this project, I set up a virtual machine, created new users in the Windows OS and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
+Within this project, I used a virtual machine, created new users in the Windows OS and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
 The next step was to enable the event logging, to observe how data can identify possible security threats followed by creating and running automated tasks, useful for regular monitoring and protecting the system <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -15,21 +15,39 @@ The next step was to enable the event logging, to observe how data can identify 
 <h2>Project walk-through:</h2>
 
 <p>
-<b><h3>1. Confidentiality analysis:</h3></b>
+<b><h3>1. Creating a new user</h3></b>
 
-- Assesing the email account password complexity and uniqueness using [Password Strength Meter](https://www.passwordmonster.com/).<br/>
+- In this chapter I created a new user named "TestUser" with "TestPassword123" password and granting limited rights;<br/>
+- In the CLI terminal I used "net user TestUser TestPassword213 /add" command;
+  ![image](https://github.com/user-attachments/assets/9eaa5387-843c-4f2f-bbf2-010d4302d637)<br/>
+- In the GUI window you can find the created account - the next step is to select the desired user;
+![image](https://github.com/user-attachments/assets/e3ea352b-3b38-438d-870e-6a1d3593ac31)<br/>
+- To view the user's rights, select the option indicated below;
+![image](https://github.com/user-attachments/assets/845b49f0-a7e9-42f5-8f1e-25bff9500dd1)
+- It is noted that the "TestUser" user has limited rights by default.
+![image](https://github.com/user-attachments/assets/0597d39d-ca13-4224-ae26-4ec2f4070b37)
 
-  Here I introduced the account password in the empty box and generated the following asnwer:<br/>
+<b><h3>2. Creating a folder and granting read-only access:</h3></b>
+
+- To create a folder on the desktop, I performed the following steps: right click on the Desktop->New>Folder option and named it TestUser;<br/>
+![image](https://github.com/user-attachments/assets/0043d1d6-b2a6-4bbf-949a-06cc92522c73)
+- The next steps for granting reading rules to the user “TestUser” are:<br/>
+  o Right click on the folder->Properties->Security<br/>
+  ![image](https://github.com/user-attachments/assets/3906d3a5-ca2e-4fd6-b6f9-386371a1bff2)<br/>
+  o In the list of users I did not find the newly created one, so I added it using the option Edit->Add->Object Types (Users)->Advance->Find Now-> Select the User “TestUser”->close the windows with the option Ok. Later from the list of “rights” I selected only Read. Later Apply and ok.<br/>
+  ![image](https://github.com/user-attachments/assets/e0c1c73b-6e7b-42e0-b8be-fae759f34dd5)<br/>
+  ![image](https://github.com/user-attachments/assets/6a7576f6-d39b-451c-b679-e37668c785a5)<br/>
+  ![image](https://github.com/user-attachments/assets/9b597720-632d-44ad-9304-83692fa956f0)<br/>
+  ![image](https://github.com/user-attachments/assets/c8905d23-62cd-40ec-84be-98cf0a146b6f)<br/>
   
-![image](https://github.com/user-attachments/assets/43e488c8-9b41-49a9-84c2-927fb2cead3b)
 
-- Verifying if two-factor authentication (2FA) is enabled to enhance the security of account access. <br/>
 
-  While I checked if the 2FA authentication is enabled I found that is not.<br/>
 
-![image](https://github.com/user-attachments/assets/b6fbe428-feac-44f3-85af-4cdbaa4e6d6b)
-  
-<b><h3>2. Integrity analysis:</h3></b>
+
+ 
+
+
+
 
 Checking the following source https://help.yahoo.com, I found the next **info:** 
 
