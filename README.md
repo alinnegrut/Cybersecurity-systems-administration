@@ -40,57 +40,15 @@ The next step was to enable the event logging, to observe how data can identify 
   ![image](https://github.com/user-attachments/assets/9b597720-632d-44ad-9304-83692fa956f0)<br/>
   ![image](https://github.com/user-attachments/assets/c8905d23-62cd-40ec-84be-98cf0a146b6f)<br/>
   
+<b><h3>3. Changing login settings.:</h3></b>
 
+- Here I enabled event logging for failed login attempts and checked the logs to confirm that logging was successfully enabled.<br/>
+- To record events related to failed login attempts, I followed the next steps:</br>
+    o Windows+R-> gpedit.msc</br>
+    o In the opened window I accessed:</br>
+    ![image](https://github.com/user-attachments/assets/55a9f2eb-22d1-491e-ad11-237859327cc5)</br>
+    
 
-
-
- 
-
-
-
-
-Checking the following source https://help.yahoo.com, I found the next **info:** 
-
-Yahoo Mail using several mechanisms and technologies to safeguard users from viruses, malicious attachments, and other cyberattacks. Below is a detailed evaluation of the key security measures implemented by Yahoo Mail to mitigate these threats:
-
-  <b>- Automatic Attachment Scanning for Viruses</b>
-    <p>Yahoo Mail utilizes antivirus software to detect and block malicious attachments before users open them. Whenever you receive or send an email with an attachment, it is automatically scanned for potential threats.</p>
-
-  <b>- Phishing Protection</b>
-    <p>Yahoo employs anti-phishing filters designed to identify suspicious emails that attempt to steal personal or financial information. These filters analyze the content and structure of messages to detect phishing indicators, such as suspicious links or deceptive texts.</p>
-
-  <b>- Spam Protection</b>
-    <p>Yahoo Mail leverages machine learning-based spam filters to analyze and classify messages as spam or legitimate. The system becomes more effective as it receives more data from users.</p>
-
-  <b>- Email Encryption</b>
-    <p>Yahoo uses TLS (Transport Layer Security) encryption to secure communications between servers and user devices, preventing attackers from intercepting data during email transmission.</p>
-
-  <b>- Blocking Dangerous Attachments</b>
-    <p>Yahoo Mail automatically blocks executable files (.exe) and other potentially dangerous file types. Restrictions are also applied to certain attachment types to enhance security.</p>
-
-  <b>- Brute-Force Attack Prevention</b>
-    <p>Yahoo detects and blocks fraudulent login attempts by limiting the number of failed attempts and monitoring the IP addresses of login attempts.</p>
-
-  <b>- Security Notifications and Account Activity Monitoring</b>
-    <p>Yahoo sends alerts when suspicious activity is detected, such as access from unfamiliar locations. Users can review recent activity and take prompt action if any unusual activity is noticed.</p>
-
-- **Analyzing how the email service is protected against viruses and malicious attachments, assessing the level of protection against cyberattacks.**<br/>
-
-![image](https://github.com/user-attachments/assets/06786e3a-aa1f-4ae9-99c4-3aff87766609)
-![image](https://github.com/user-attachments/assets/f499b079-3206-4a7b-bbc8-0c3dd19d48d3)
-![image](https://github.com/user-attachments/assets/9aa96b96-eccd-4a43-9e7c-842e5faa590d)
-
-- **Evaluating how the email service identifies and blocks spam and phishing messages.**<br/>
-
-![image](https://github.com/user-attachments/assets/3f95265e-a737-44f5-910a-777f9f92e3c8)
-![image](https://github.com/user-attachments/assets/536909a7-5f40-40f9-8723-9b537468dca8)
-![image](https://github.com/user-attachments/assets/7dde5079-9b92-4cd1-9af1-2e1e771b2d55)
-![image](https://github.com/user-attachments/assets/c33be467-6fed-4a0e-9539-35d98564d9d1)
-![image](https://github.com/user-attachments/assets/494f5efe-fd51-4194-b226-9ff962acc1d3)
-
-<b><h3>3. Availability analysis:</h3></b>
-
-- Verifying how the email service ensures the accessibility of the account and messages.
 
 While using this email, direct login on the yahoo.com website is one of the access methods.
 Other methods for accessing the account and messages include:
