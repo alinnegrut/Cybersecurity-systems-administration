@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d7f28b06-e934-4cd9-85e3-a6b6f6de4ed5)<h1>Cybersecurity systems administration</h1>
+<h1>Cybersecurity systems administration</h1>
 
 <h2>Description</h2>
 Within this project, I used a virtual machine, created new users in the Windows OS and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
