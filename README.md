@@ -75,7 +75,15 @@ The next step was to enable the event logging, to observe how data can identify 
   ![image](https://github.com/user-attachments/assets/3ac9dd15-0856-45d9-ae51-26fa29190886)</br>
   ![image](https://github.com/user-attachments/assets/e61d755b-bea4-46de-957c-feed8c9407f5)</br>
 
-  
+📌 Conclusion
+This project demonstrates the practical application of fundamental Windows system administration tasks, using both the graphical user interface and the command line. The following objectives were successfully implemented:
+
+- Creating a user account with limited privileges;
+- Configuring folder access permissions;
+- Enabling and verifying audit logging for failed login attempts;
+- Scheduling a recurring task using Task Scheduler.
+
+Each step was clearly documented, and the testing confirmed that all configurations were applied correctly.
 
 
 
