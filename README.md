@@ -1,7 +1,8 @@
-<h1>Checking the security of an e-mail account</h1>
+<h1>Cybersecurity systems administration</h1>
 
 <h2>Description</h2>
-Within this project, I checked the security level of a personal e-mail account that I'm not using it for daily basis, where I approached the three principles of the CIA triad (Confidentiality, Integrity, Availability).<br />
+Within this project, I created new users in the Windows operating system and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
+The next step was to enable the event logging, to observe how data can identify possible security threats followed by creating and running automated tasks, useful for regular monitoring and protecting the system <br />
 
 <h2>Languages and Utilities Used</h2>
 
