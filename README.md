@@ -1,4 +1,4 @@
-<h1>Cybersecurity systems administration</h1>
+![image](https://github.com/user-attachments/assets/d7f28b06-e934-4cd9-85e3-a6b6f6de4ed5)<h1>Cybersecurity systems administration</h1>
 
 <h2>Description</h2>
 Within this project, I used a virtual machine, created new users in the Windows OS and assigned them limited rights, an essential aspect for cybersecurity, then I managed folders and access permissions for them, which helps limit access to sensitive information.<br />
@@ -49,7 +49,18 @@ The next step was to enable the event logging, to observe how data can identify 
     ![image](https://github.com/user-attachments/assets/55a9f2eb-22d1-491e-ad11-237859327cc5)</br>
     o In the "Audit account logon event" box, I checked the options for successful or failed login, then Ok.</br>
     ![image](https://github.com/user-attachments/assets/6bad2416-4a9d-4598-bde2-92f87b3f1597)</br>
+    o For the test user, we created two successive failed logs to test the attempts. They can be viewed in the “Event Viewer” in Windows Administrative Tools.</br>
+    ![image](https://github.com/user-attachments/assets/55109bd3-fa9e-4e0d-8b77-67f07deccfe6)
+    o Considering that failed events have a specific ID number, namely 4625, we used a filter to find them faster.</br>
+    ![image](https://github.com/user-attachments/assets/e8d07407-9e75-412c-8b27-9f3a71df9775)</br>
+    ![image](https://github.com/user-attachments/assets/78abaac2-9010-4ab5-9944-28cbff789808)</br>
+    ![image](https://github.com/user-attachments/assets/3c18147a-044e-4ab2-85c7-5f4227cdbbeb)</br>
     
+
+
+    
+
+
 
     
 
